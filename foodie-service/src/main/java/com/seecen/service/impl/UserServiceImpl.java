@@ -60,7 +60,7 @@ public class UserServiceImpl implements IUserService {
         // 默认生日
         user.setBirthday(DateUtil.stringToDate("1900-01-01"));
         // 默认性别为 保密
-        user.setSex(Sex.secret.type);
+        user.setSex(Sex.SECRET.type);
 
         user.setCreatedTime(new Date());
         user.setUpdatedTime(new Date());
